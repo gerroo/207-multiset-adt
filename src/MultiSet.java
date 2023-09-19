@@ -4,5 +4,5 @@ public interface MultiSet<T> {
     boolean contains(T item);
     boolean is_empty();
     int count(T item);
-    int size(T item);
+    int size();
 }
